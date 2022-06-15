@@ -1,4 +1,11 @@
 const numbers = [43,53,63,73,83,93]
+const caliphs = ['abu_bakr', 'umar', 'uthman', 'ali','hasan', 'muawiya']
+const caliph_2 = [
+  'أبو بكر،',
+   'عمر ',
+   'عثمان',
+    'علي ',
+]
 let val
 
 val =numbers.length
@@ -24,6 +31,14 @@ numbers.pop()
 console.log(numbers)
 numbers.shift()
 console.log(numbers)
-
+numbers.splice(1,1)
 console.log(numbers)
+numbers.splice(1,2)
 console.log(numbers)
+numbers.reverse()
+val = numbers.concat(caliphs)
+console.log(val)
+caliphs.sort()
+console.log(caliphs)
+caliph_2.sort()
+console.log(caliph_2)
